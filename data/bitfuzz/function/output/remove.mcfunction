@@ -1,0 +1,1 @@
+$kill @e[tag=bitfuzz.output,nbt={data:{name:"$(name)"}}]

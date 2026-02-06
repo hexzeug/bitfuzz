@@ -1,0 +1,1 @@
+execute as @e[tag=bitfuzz.output] at @s run function bitfuzz:output/read/init
