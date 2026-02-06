@@ -1,1 +1,1 @@
-execute as @e[tag=bitfuzz.input,nbt={data:{enabled:true}}] at @s run function bitfuzz:input/clear/init
+$execute as @e[tag=bitfuzz.input,nbt={data:{name:"$(name)"}}] at @s run function bitfuzz:input/clear/init

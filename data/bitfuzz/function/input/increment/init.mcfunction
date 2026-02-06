@@ -4,3 +4,5 @@ execute store result score #size bitfuzz run data get entity @s data.size 1
 scoreboard players add @s bitfuzz 1
 
 function bitfuzz:input/increment/loop_body
+
+execute store result entity @s data.value int 1 run scoreboard players get @s bitfuzz

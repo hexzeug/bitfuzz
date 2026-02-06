@@ -1,0 +1,1 @@
+$execute as @e[tag=bitfuzz.input,nbt={data:{name:"$(name)"}}] at @s run function bitfuzz:input/increment/init
