@@ -1,0 +1,1 @@
+$return run execute if score #r$(value) bitfuzz = @n[tag=bitfuzz.output,nbt={data:{name:dout1}}] bitfuzz
