@@ -1,0 +1,1 @@
+function bitfuzz:input/clear {name:w}
