@@ -1,1 +1,1 @@
-execute as @e[tag=bitfuzz.input,nbt={data:{enabled:true}}] at @s run function bitfuzz:random/start
+execute as @e[tag=bitfuzz.input,nbt={data:{enabled:true}}] at @s run function bitfuzz:input/change_input {generator:random}

@@ -1,3 +1,5 @@
+$execute if block ~ ~ ~ lever[powered=$(powered)] run return 0
+
 execute if block ~ ~ ~ lever[face=wall,facing=north] run setblock ~ ~ ~1 bedrock
 $execute if block ~ ~ ~ lever[face=wall,facing=north] run setblock ~ ~ ~ lever[face=wall,facing=north,powered=$(powered)]
 $execute if block ~ ~ ~ lever[face=wall,facing=north] run setblock ~ ~ ~1 redstone_lamp[lit=$(powered)]
