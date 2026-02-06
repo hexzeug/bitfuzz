@@ -5,7 +5,7 @@ scoreboard players operation #correct bitfuzz += #comp bitfuzz
 execute store success score #comp bitfuzz run function bitfuzz_examples:register_file/check_dout2 with entity @n[tag=bitfuzz.input,nbt={data:{name:ar2}}] data
 scoreboard players operation #correct bitfuzz += #comp bitfuzz
 
-tellraw @a ["Reading r", {score:{name:"@n[tag=bitfuzz.input,nbt={data:{name:ar1}}]",objective:"bitfuzz"}}, " and r", {score:{name:"@n[tag=bitfuzz.input,nbt={data:{name:ar2}}]",objective:"bitfuzz"}}, ": correct=", {score:{name:"#correct", objective:"bitfuzz"}}, "/2"]
+tellraw @a ["Reading r", {score:{name:"@n[tag=bitfuzz.input,nbt={data:{name:ar1}}]",objective:"bitfuzz"}}, " and r", {score:{name:"@n[tag=bitfuzz.input,nbt={data:{name:ar2}}]",objective:"bitfuzz"}}, ": correct=", {score:{name:"#correct", objective:"bitfuzz"},color:aqua}, {text:"/2",color:dark_aqua}]
 
 function bitfuzz:input/increment {name:ar1}
 function bitfuzz:input/increment {name:ar2}
