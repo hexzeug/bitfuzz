@@ -1,4 +1,4 @@
-execute unless score @s bitfuzz matches -2147483648..2147483647 run return fail
+execute unless score @s bitfuzz matches -2147483648..2147483647 run return run function bitfuzz:input/clear/init
 
 execute store result score #size bitfuzz run data get entity @s data.size 1
 scoreboard players add @s bitfuzz 1

@@ -1,1 +1,0 @@
-$execute align xyz run summon marker ~.5 ~.5 ~.5 {Tags:["bitfuzz.input"],data:{"name":"$(name)","size":$(size),"enabled":true}}

@@ -1,0 +1,1 @@
+$data modify entity @n[tag=bitfuzz.input,nbt={data:{name:"$(name)"}}] data.enabled set value true
