@@ -1,0 +1,12 @@
+function bitfuzz:input/random {name:incin}
+
+schedule function bitfuzz_examples:incrementer/test_random/check_and_set 20t append
+schedule function bitfuzz_examples:incrementer/test_random/check_and_set 40t append
+schedule function bitfuzz_examples:incrementer/test_random/check_and_set 60t append
+schedule function bitfuzz_examples:incrementer/test_random/check_and_set 80t append
+schedule function bitfuzz_examples:incrementer/test_random/check_and_set 100t append
+schedule function bitfuzz_examples:incrementer/test_random/check_and_set 120t append
+schedule function bitfuzz_examples:incrementer/test_random/check_and_set 140t append
+schedule function bitfuzz_examples:incrementer/test_random/check_and_set 160t append
+schedule function bitfuzz_examples:incrementer/test_random/check_and_set 180t append
+schedule function bitfuzz_examples:incrementer/test_random/check_and_set 200t append
